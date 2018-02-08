@@ -35,6 +35,3 @@ Once your created the docker-compose.yml file, run:
 docker-compose build
 docker-compose up
 ```
-
-### Solution
-A working docker-compose.yml file is in solution.zip (but of course it's password protected ;))
