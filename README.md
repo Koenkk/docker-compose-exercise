@@ -13,8 +13,8 @@ The webapp retrieves the movies from the database and shows them in a HTML page.
 First create a separate network for the database and webapp by running: `docker network create --driver bridge altran-docker-compose`.
 
 Start the containers by running:
-* Database: `docker run -it --name database --rm --net=altran-docker-compose -e MYSQL_ROOT_PASSWORD=movie123 koenkk/altran-docker-compose-database`.
-* Webapp: `docker run -it --name webapp --rm --net=altran-docker-compose -p 8080:80 koenkk/altran-docker-compose-webapp`.
+* Database: `docker run -d --name database --net=altran-docker-compose -e MYSQL_ROOT_PASSWORD=movie123 koenkk/altran-docker-compose-database`.
+* Webapp: `docker run -d --name webapp --net=altran-docker-compose -p 8080:80 koenkk/altran-docker-compose-webapp`.
 
 Open your browser and go to http://localhost:8080. You will now see the movies from the database displayed by the webapp.
 
