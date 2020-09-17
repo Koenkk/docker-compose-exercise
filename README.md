@@ -26,7 +26,7 @@ To run the containers you had to execute 3 commands. It would be easier if we on
 ### Creating a docker-compose.yml
 Create a docker-compose.yml file to run the webapp and the database. Information on how to create such a file can be found here:
 * https://docs.docker.com/compose/overview/
-* https://docs.docker.com/compose/compose-file/compose-file-v2/
+* https://docs.docker.com/compose/compose-file/
 
 Once your created the docker-compose.yml file, run:
 ```
